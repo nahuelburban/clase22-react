@@ -1,5 +1,11 @@
 
+import Boton from "./components/Boton";
+import Boton2 from "./components/Boton2";
+
+
 function App() {
+
+
   return (
     <div className="jumbotron">
       
@@ -14,7 +20,12 @@ function App() {
         within the larger container.
       </p>
       <a href="ho.a" className="btn btn-primary btn-lg" role="button">Learn More</a>
-
+      <br/>
+      <br />
+      <Boton texto="Clickeame ahora !" />
+      <br/>
+      <br />
+      <Boton2 texto="Soy el boton 2"  />
     </div>
   );
 }
